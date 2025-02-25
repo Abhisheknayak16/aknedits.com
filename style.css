@@ -1,3 +1,13 @@
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.pricing-table th, .pricing-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
 .dark-mode {
     background-color: #111;
     color: #fff;
