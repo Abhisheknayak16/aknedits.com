@@ -1,0 +1,98 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #0d1117;
+    color: white;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #161b22;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #58a6ff;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #c9d1d9;
+}
+
+/* Buttons */
+.button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #58a6ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background: #1f6feb;
+}
+
+/* Services Section */
+.services {
+    padding: 40px;
+}
+
+.service-card {
+    background: #161b22;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+.service-card h3 {
+    color: #58a6ff;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background: #161b22;
+    text-align: center;
+}
