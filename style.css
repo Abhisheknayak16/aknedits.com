@@ -69,3 +69,7 @@ nav ul li a {
     font-size: 18px;
     font-style: italic;
 }
+input[type="email"] {
+    padding: 10px;
+    border-radius: 5px;
+}
