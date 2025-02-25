@@ -19,3 +19,9 @@ window.onload = typeEffect;<script>
         target.scrollIntoView({ behavior: 'smooth' });
     });
 });
+function filterSelection(category) {
+    let items = document.getElementsByClassName("portfolio-item");
+    for (let i = 0; i < items.length; i++) {
+        items[i].style.display = category === "all" || items[i].classList.contains(category) ? "block" : "none";
+    }
+}
